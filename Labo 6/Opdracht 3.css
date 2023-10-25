@@ -1,0 +1,52 @@
+.header > a {
+    color: red;
+}
+
+.header{
+    font-family: Helvetica, sans-serif;
+    background-color: #2b2d42;
+    padding: 30px;
+    margin: 10px;
+}
+
+.header > h1{
+    font-size: 80px;
+    color: #edf2f4;
+}
+
+.header > h2{
+    font-size: 40px;
+    color: #edf2f4;
+}
+
+.header > p{
+    color: #8d99ae;
+}
+.header > p > a{
+    color: red;
+}
+.education{
+    font-family: Helvetica, sans-serif;
+    background-color: #8d99ae;
+    padding: 30px;
+    margin: 10px;
+    }
+
+.education > h2{
+    font-size: 40px;
+}
+
+.footer{
+    font-family: Helvetica, sans-serif;
+    background-color: #2b2d42;
+    padding: 30px;
+    margin: 10px;
+}
+
+.footer >h2{
+    color: #8d99ae;
+}
+
+.footer > div > a {
+    color: red;
+}

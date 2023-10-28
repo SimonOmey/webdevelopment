@@ -1,0 +1,18 @@
+.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+.checklist li.checked {
+    background-image: url("Images Labo 6/checked.png");
+    padding-left: 30px;
+    background-size: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.checklist li {
+    background-image: url("Images Labo 6/unchecked.png");
+    padding-left: 30px;
+    background-size: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}

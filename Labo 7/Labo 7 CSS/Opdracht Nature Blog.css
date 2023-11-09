@@ -1,0 +1,43 @@
+.body > section{
+    font-family: Verdana, sans-serif;
+    margin: 0 auto;
+}
+.body > section > header{
+    background-image: url("../Labo 7 Images/header.jpg");
+    background-repeat: no-repeat;
+    height: 125px;
+    background-size: 1700px;
+}
+.body > section > header > h1{
+    color: white;
+    font-size: 50px;
+}
+.body > section > nav {
+    background-color: #2b2d42;
+    height: 20px;
+    color: black;
+    font-size: 14px;
+}
+.body > section > nav > a {
+    font-weight: bold;
+    font-size: 12px;
+    color: limegreen;
+}
+.body > section > section > article {
+    background-color:lightgray;
+    color: #2b2d42;
+}
+.body > section > section > article > header > h1 {
+    font-size: 24px;
+    text-decoration-line: underline;
+    margin-top: 5px;
+}
+.body > section > section > article > p {
+    font-size: 12px;
+}
+.body > section > section > article > footer > a {
+    font-size: 12px;
+}
+.body > section > footer {
+    font-size: 12px;
+}

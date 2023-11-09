@@ -1,0 +1,29 @@
+.body {
+    background-color: red;
+    border-width: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.body > header {
+    text-align: center;
+    font-family: "Edwardian Script ITC", serif;
+    font-size: 64px;
+    color: yellow;
+}
+.body > main > section {
+    border-style: solid;
+    border-color: yellow;
+    margin-top: 2em;
+    background-color: darkred;
+}
+.body > main > section > ul > li {
+    font-family: "Edwardian Script ITC", serif;
+    font-size: 40px;
+    color : orange;
+}
+.body > main > section > ul > li > ul > li {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+}

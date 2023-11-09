@@ -15,15 +15,24 @@
     border-style: solid;
     border-color: yellow;
     margin-top: 2em;
-    background-color: darkred;
 }
 .body > main > section > ul > li {
     font-family: "Edwardian Script ITC", serif;
     font-size: 40px;
-    color : orange;
+    color: orange;
+    background-image: url("Labo 7/Labo 7 Images/sinterklaas.png");
+    padding-left: 30px;
+    background-size: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
 .body > main > section > ul > li > ul > li {
     font-family: Arial, sans-serif;
     font-size: 24px;
     color: white;
+    background-image: url("Labo 7/Labo 7 Images/Mandarijn.PNG");
+    padding-left: 30px;
+    background-size: 30px;
+    background-position: left center;
+    background-repeat: no-repeat ;
 }

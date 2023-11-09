@@ -3,36 +3,42 @@
     border-width: 1px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .body > header {
     text-align: center;
     font-family: "Edwardian Script ITC", serif;
     font-size: 64px;
     color: yellow;
+    border: solid yellow;
 }
-.body > main > section {
-    border-style: solid;
-    border-color: yellow;
-    margin-top: 2em;
+.sintlijst  {
+    border: solid yellow;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: darkred;
+    list-style: none;
+    padding-left: 2em;
 }
-.body > main > section > ul > li {
+.sintlijst > li > h2{
     font-family: "Edwardian Script ITC", serif;
     font-size: 40px;
     color: orange;
-    background-image: url("Labo 7/Labo 7 Images/sinterklaas.png");
-    padding-left: 30px;
+    background-image: url("/Labo 7/Labo 7 Images/sinterklaas.png");
+    padding-left: 50px;
     background-size: 30px;
     background-position: left center;
     background-repeat: no-repeat;
 }
-.body > main > section > ul > li > ul > li {
+.sintlijst > li > ul > li {
     font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: white;
-    background-image: url("Labo 7/Labo 7 Images/Mandarijn.PNG");
-    padding-left: 30px;
+    font-size: 18px;
+    color: darkorange;
+    list-style: none;
+    margin-top: 2em;
+    background-image: url("/Labo 7/Labo 7 Images/Mandarijn.PNG");
+    padding-left: 50px;
     background-size: 30px;
     background-position: left center;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
 }

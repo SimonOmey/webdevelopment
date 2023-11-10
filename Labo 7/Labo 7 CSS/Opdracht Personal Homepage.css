@@ -24,7 +24,7 @@
     font-family: "Edwardian Script ITC", serif;
     font-size: 40px;
     color: orange;
-    background-image: url("/Labo 7/Labo 7 Images/sinterklaas.png");
+    background-image: url("../Labo 7 Images/sinterklaas.png");
     padding-left: 50px;
     background-size: 30px;
     background-position: left center;
@@ -36,7 +36,7 @@
     color: darkorange;
     list-style: none;
     margin-top: 2em;
-    background-image: url("/Labo 7/Labo 7 Images/Mandarijn.PNG");
+    background-image: url("../Labo 7 Images/Mandarijn.PNG");
     padding-left: 50px;
     background-size: 30px;
     background-position: left center;

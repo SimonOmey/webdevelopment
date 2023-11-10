@@ -42,3 +42,18 @@
     background-position: left center;
     background-repeat: no-repeat;
 }
+.sintlijst > h2{
+    font-family: "Edwardian Script ITC", serif;
+    font-size: 40px;
+    color: orange;
+    background-image: url("../Labo 7 Images/sinterklaas.png");
+    padding-left: 50px;
+    background-size: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+table, th, td{
+    border: 1px solid orange;
+    color: darkorange;
+    margin: 2em;
+}

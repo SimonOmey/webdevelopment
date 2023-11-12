@@ -1,0 +1,41 @@
+table{
+    border: solid 4px black;
+    border-spacing: 0;
+}
+
+td {
+    border-bottom: dotted 1px black;
+    border-right: dotted 1px black;
+}
+td:first-child{
+    background: #ffdcdc;
+}
+
+td:last-child{
+    background: #ffdcdc;
+}
+
+th{
+    text-align: center;
+    padding: 3px;
+}
+
+th.NaamMaand{
+    background: #aaaac8;
+}
+th.NaamDagen {
+    background: #232546;
+    color: #c8bef0;
+    border-top: dotted 1px #c8bef0;
+    border-right: dotted 1px #c8bef0;
+    border-bottom: dotted 1px #c8bef0;
+}
+td.AndereMaand{
+    background: darkgrey;
+    color:grey;
+    border-bottom: dotted 1px grey;
+    border-right: dotted 1px grey;
+}
+.Zestiende{
+    background:#fa7878;
+}

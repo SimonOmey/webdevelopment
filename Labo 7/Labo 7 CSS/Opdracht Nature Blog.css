@@ -1,6 +1,7 @@
 .body > section{
     font-family: Verdana, sans-serif;
     margin: 0 auto;
+    width: 95%;
 }
 .body > section > header{
     background-image: url("../Labo 7 Images/header.jpg");

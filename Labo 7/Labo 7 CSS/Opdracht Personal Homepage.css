@@ -46,6 +46,25 @@
     background-position: left center;
     background-repeat: no-repeat;
 }
+.sintlijst > li > ul > li > a{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: yellow;
+    list-style: none;
+    margin-top: 2em;
+}
+.sintlijst > ul > li {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: darkorange;
+    list-style: none;
+    margin-top: 2em;
+    background-image: url("../Labo 7 Images/Mandarijn.PNG");
+    padding-left: 50px;
+    background-size: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
 .sintlijst > h2{
     font-family: "Edwardian Script ITC", serif;
     font-size: 40px;
@@ -56,19 +75,17 @@
     background-position: left center;
     background-repeat: no-repeat;
 }
-.datagrid  {
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
-}
 .datagrid {
     font: normal 12px/150% Arial, Helvetica, sans-serif;
     border: 4px solid red;
-    background: yellow;
+    background: orange;
     overflow: hidden;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
 }
 .datagrid > thead > tr > th {
     padding: 3px 3px;

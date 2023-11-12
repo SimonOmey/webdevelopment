@@ -6,8 +6,8 @@
 .body > section > header{
     background-image: url("../Labo 7 Images/header.jpg");
     background-repeat: no-repeat;
-    height: 125px;
-    background-size: 1700px;
+    height: 90px;
+    background-size: cover;
 }
 .body > section > header > h1{
     color: white;
@@ -32,6 +32,7 @@
     font-size: 24px;
     text-decoration-line: underline;
     margin-top: 5px;
+    padding-top: 50px;
 }
 .body > section > section > article > p {
     font-size: 12px;

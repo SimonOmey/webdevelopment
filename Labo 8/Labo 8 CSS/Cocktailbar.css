@@ -1,0 +1,66 @@
+.body{
+    margin:auto;
+    width: 95%;
+    font-family: Verdana,sans-serif;
+    font-size: 1.2em;
+}
+img{
+    margin:auto;
+    display: block;
+}
+h1{
+    color: #007e7e;
+    font-size: 150%;
+}
+h2{
+    color: #007e7e;
+    font-size: 130%;
+}
+a{
+    color: #2c2c2c;.
+}
+.Specials{
+    float: right;
+    width: 25%;
+    border: #007e7e solid 1px;
+    text-align: center;
+    background-image: url("../Labo 8 Images/Images Cocktailbar/cocktail.gif");
+    background-repeat: repeat-x;
+}
+.Lemonbreeze{
+    color: orange;
+}
+
+.ChaiChiller{
+    color: saddlebrown;
+}
+.BlackBrainBrew{
+     color: black;
+}
+.Info{
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+.About{
+    float: left;
+    width: 70%;
+}
+footer{
+    float: right;
+    text-align: center;
+}
+#guarantee{
+    margin:30px;
+    padding: 20px 80px;
+    color: #2c2c2c;
+    background-image: url("../Labo 8 Images/Images Cocktailbar/background.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: #a7cece;
+    border: white 3px dotted;
+    font-style: italic;
+}
+.cursief{
+    font-style: italic;
+}

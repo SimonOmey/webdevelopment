@@ -1,0 +1,15 @@
+.section1{
+    box-sizing: border-box;
+    width : 50%;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+
+}
+.section2{
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black;
+    float: right;
+    padding: 10px;
+}

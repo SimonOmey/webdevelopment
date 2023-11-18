@@ -49,6 +49,7 @@ a{
 footer{
     float: right;
     text-align: center;
+    width: 70%;
 }
 #guarantee{
     margin:30px;

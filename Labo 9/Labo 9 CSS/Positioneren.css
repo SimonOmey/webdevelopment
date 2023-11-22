@@ -1,0 +1,17 @@
+article:nth-child(odd){
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    border: black 1px solid;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article:nth-child(even){
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    border: black 1px solid;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

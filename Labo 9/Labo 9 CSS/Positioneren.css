@@ -5,6 +5,13 @@ article:nth-child(odd){
     margin: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    float: left;
+}
+article:nth-child(odd) > p > img{
+    padding: 10px;
+    margin: auto;
+    float: left;
+
 }
 
 article:nth-child(even){
@@ -14,4 +21,10 @@ article:nth-child(even){
     margin: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    float: right;
+}
+article:nth-child(even) > p > img{
+    padding: 10px;
+    margin: auto;
+    float: right;
 }

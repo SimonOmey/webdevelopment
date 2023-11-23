@@ -3,16 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Airbus Webpagina</title>
+	<link href="../Labo%209%20CSS/Airbus.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<div> <!-- top -->
-		<p>AIRBUS - A380</p>
-		<p>Het grootste passagiersvliegtuig ter wereld </p>
+	<header> <!-- top -->
+		<h1><strong>AIRBUS - A380</strong></h1>
+		<h2><strong>Het grootste passagiersvliegtuig ter wereld </strong></h2>
 		<img src="../Labo%209%20Images/tekklein.png" alt="tekening van vliegtuig" />
-    </div>
+    </header>
 	
-    <div> <!-- news -->
+    <aside> <!-- news -->
 		<h3>Eerste vlucht</h3>
 		<p>Het toestel maakte zijn eerste trans-Atlantische vlucht met passagiers op 19 maart 2007 tussen
 			 Frankfurt am Main en New York.
@@ -31,28 +32,26 @@
 		<p>Een Airbus A380 van Air France raakte tijdens het taxiën naar de startbaan op John F. Kennedy
 			 International Airport met zijn vleugel de staart van een Bombardier CRJ700 van Comair.
 		</p>
-    </div>
+    </aside>
 	
-    <div> <!-- main -->
-	
-        <div> <!-- logo -->
-			<img src="../Labo%209%20Images/airbus_logo.jpg" alt="Het logo van airbus" />
-        </div>
+    <main> <!-- main -->
+        	<div> <!-- logo -->
+				<img class="logo" src="../Labo%209%20Images/airbus_logo.jpg" alt="Het logo van airbus" />
+        	</div>
 		
-        <div> <!-- introduction -->
-			<p><b>De Airbus A380</b> is het grootste passagiersvliegtuig ter wereld. Het is
+        	<div class="intro"> <!-- introduction -->
+				<p><b>De Airbus A380</b> is het grootste passagiersvliegtuig ter wereld. Het is
 			   een product van het Europese concern Airbus. Het widebody-vliegtuig beschikt over twee
 			   verdiepingen, waardoor het maximaal 853 passagiers kan herbergen. Bij een gemiddelde configuratie
 			   passen er 555 personen in.
 			   De eerste testvlucht werd gemaakt op 27 april 2005. Tweeënhalf jaar later, op 25 oktober 2007, 
 			   maakte de A380 haar eerste commerciële vlucht. In dienst van Singapore Airlines vloog de A380 van
-			   Singapore naar Sydney. <span>Dit was eveneens de eerste route waarop een lijndienst door het
-			   toestel werd onderhouden. </span> Anno april 2011 hebben vijf luchtvaartmaatschappijen 47
+			   Singapore naar Sydney. <span><strong><i>Dit was eveneens de eerste route waarop een lijndienst door het
+			   toestel werd onderhouden. </i></strong></span> Anno april 2011 hebben vijf luchtvaartmaatschappijen 47
 			   vliegtuigen van dit type in dienst.
-			</p>
-		</div>
-		
-		<div> <!-- gallery -->
+				</p>
+			</div>
+		<div class="gallery"> <!-- gallery -->
 			<div class="foto">
 			  <img src="../Labo%209%20Images/A380Grond.JPG" alt="Foto vliegtuig op de grond" />
 			</div>
@@ -81,11 +80,11 @@
 			  <img src="../Labo%209%20Images/abramovich.jpg" alt="foto"/>
 			</div> 
 		</div>
-	</div>
+	</main>
 	
-    <div> <!-- bottom -->
+    <footer> <!-- bottom -->
 	
-		<div> <!-- block -->
+		<section> <!-- block -->
 			<ul>
 			  <li> Manchester </li>
 			  <li> Toulouse 
@@ -96,9 +95,9 @@
 				  </ul> </li>
 			   <li> Frankfurt am Main </li>
 			</ul>
-		</div>
+		</section>
 		
-		<div> <!-- block -->
+		<section> <!-- block -->
 			<ul>
 			  <li> Documentary </li>
 			  <li> Aircrafts 
@@ -109,8 +108,8 @@
 				  </ul> </li>
 			   <li> A380 - 800 </li>
 			</ul>
-		</div>
-    </div>
+		</section>
+    </footer>
 	
 	<div> <!-- copyright -->
 		<p>&lt; &copy; Airbus A380 &gt;</p>

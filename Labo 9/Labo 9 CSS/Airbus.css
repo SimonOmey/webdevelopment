@@ -21,10 +21,9 @@ header > h2{
     font-size: 240%;
 }
 header > img{
-    margin-right: 90px;
-    margin-bottom: 60px;
-    position: relative;
-    z-index: 1;
+    padding-right: 90px;
+    padding-bottom: 60px;
+    position: absolute;
 }
 
 main{

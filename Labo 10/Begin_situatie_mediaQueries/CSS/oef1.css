@@ -24,7 +24,7 @@ figure {
 	background: black;
 	border-radius: 5px;
 	color: red;
-	margin: 10px 10px 25px 10px;
+	margin: 0 0 25px 0;
 	padding: 10px;
 	text-align: center;
 	
@@ -40,9 +40,14 @@ figcaption {
 		background-color: #86287e;
 
 	}
-	figure{
+	figure:nth-child(n){
 		display: inline-block;
+		width: 45%;
 
+	}
+	figure:nth-child(2n){
+		display: inline-block;
+		width: 45%;
 	}
 	
 }
@@ -50,5 +55,17 @@ figcaption {
 	body{
 		background-color: darkseagreen;
 	}
+	figure:nth-child(n){
+		display: inline-block;
+		width: 30%;
 
+	}
+	figure:nth-child(2n){
+		display: inline-block;
+		width: 30%;
+	}
+	figure:nth-child(3n){
+		display: inline-block;
+		width: 30%;
+	}
 }

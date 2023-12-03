@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Personal Homepage</title>
     <link href="../../Labo%207/Labo%207%20CSS/Opdracht%20Personal%20Homepage.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../Labo%2010/beginsituatie_bootstrap5/style/bootstrap-grid.css" type="text/css">
 </head>
-<body class="body">
+<body class="body container">
     <header>
         <h1>Personal Homepage van de Sint</h1>
     </header>
@@ -25,113 +26,117 @@
         </li>
         </ul>
     </section>
-    <section>
-        <ul class="sintlijst">
-        <li><h2>Hobbies</h2>
-            <ul>
-                <li><h3>Chiro Aartrijke</h3>
-                    <p>De Chiro is de grootste jeugdbeweging van Vlaanderen.</p>
-                    <a href="https://chiroaartrijke.be/">Chiro Aartrijke</a></li>
-                <li><h3>Cultuur beleven</h3>
-                    <p>De plek voor theater dans circus en comedy.</p>
-                    <a href="https://www.ccdebrouckere.be/">Cultuur Centrum De Brouckere</a></li>
-                 <li><h3>Koken</h3>
-                    <p>De Sint die komt, een feest voor elk kind. En bij een feest hoort natuurlijk ook lekkers!</p>
-                    <a href="https://koken.vtm.be/recepten/gelegenheden/sinterklaas?referrer=https%3A%2F%2Fwww.google.com%2F">Recepten van de sint</a></li>
-            </ul>
-        </li>
-        </ul>
-    </section>
-    <section>
-        <ul class="sintlijst">
-        <li><h2>Likes</h2>
-        <ul>
-            <li><h3>Muziek</h3>
-                <p>Mijn eigen Sinterklaas playlist</p>
-                <a href="https://open.spotify.com/playlist/1I7ZKCg9oGZaQw7OJqNxvO?si=8a201945d99c4326">Spotify Playlist</a>
-                <br>
-                <a><img
-                        src="images/ab67706c0000da84b9b71df1e0d1ccf0c05442c4.jpg"
-                        alt="Foto Spotify Playlist"
-                        >
-                </a>
+        <div class="row">
+            <section class="col-6 row">
+                <ul class="sintlijst">
+                <li><h2>Hobbies</h2>
+                    <ul>
+                        <li><h3>Chiro Aartrijke</h3>
+                            <p>De Chiro is de grootste jeugdbeweging van Vlaanderen.</p>
+                            <a href="https://chiroaartrijke.be/">Chiro Aartrijke</a></li>
+                        <li><h3>Cultuur beleven</h3>
+                            <p>De plek voor theater dans circus en comedy.</p>
+                            <a href="https://www.ccdebrouckere.be/">Cultuur Centrum De Brouckere</a></li>
+                         <li><h3>Koken</h3>
+                            <p>De Sint die komt, een feest voor elk kind. En bij een feest hoort natuurlijk ook lekkers!</p>
+                            <a href="https://koken.vtm.be/recepten/gelegenheden/sinterklaas?referrer=https%3A%2F%2Fwww.google.com%2F">Recepten van de sint</a></li>
+                    </ul>
                 </li>
-            <li><h3>Films</h3>
-                <p>Mijn favoriete film</p>
-                <a href="https://letterboxd.com/film/ay-ramon/">Letterboxd Ay Ramon!</a>
-                <br>
-                <a><img
-                        src="images/291908-ay-ramon--0-230-0-345-crop.jpg"
-                        alt="Foto Poster Ay Ramon!"></a></li>
-            <li><h3>Series</h3>
-                <p>Mijn eigen Sinterklaas serie</p>
-                <a href="https://www.youtube.com/watch?v=i9DxodHa52Y">Youtube Dag Sinterklaas</a>
-                <br>
-                <a><img
-                        src="images/imageedit_8_2020669455.jpg"
-                        alt="Foto Poster Dag Sinterklaas Serie"
-                ></a></li>
-            </ul>
-        </li>
-        </ul>
-    </section>
-    <section class="sintlijst">
-        <h2>Vrienden</h2>
-        <table class="datagrid">
-            <thead>
-            <tr>
-                <th>Naam</th>
-                <th>Voornaam</th>
-                <th>Gemeente</th>
-                <th>Postcode</th>
-                <th>Telefoon</th>
-                <th>E-mailadress</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Piet</td>
-                <td class="alt">Zwarte</td>
-                <td>Hemel</td>
-                <td>1000</td>
-                <td>0470 00 00 00</td>
-                <td>Zwarte.pt@gmail.com</td>
-            </tr>
-            <tr class="alt">
-                <td>Maarten</td>
-                <td>Sint</td>
-                <td>Hemel</td>
-                <td>1000</td>
-                <td>0470 98 76 54 32 10</td>
-                <td>St.Maarten@gmail.com</td>
-            </tr>
-            <tr>
-                <td>Man</td>
-                <td class="alt">Kerst</td>
-                <td>Kerststad</td>
-                <td>2000</td>
-                <td>0470 00 00 00</td>
-                <td>kerstman@gmail.com</td>
-            </tr>
-            <tr class="alt">
-                <td>Haas</td>
-                <td>Paas</td>
-                <td>Hol</td>
-                <td>-100</td>
-                <td>123</td>
-                <td>Paashaas@gmail.com</td>
-            </tr>
-            <tr>
-                <td>Fee</td>
-                <td>Tanden</td>
-                <td>Boom</td>
-                <td>8820</td>
-                <td>456</td>
-                <td>Tandenfee@gmail.com</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
+                </ul>
+            </section>
+            <div class="col-6">
+            <section class="sintlijst row">
+                <h2>Vrienden</h2>
+                <table class="datagrid">
+                    <thead>
+                    <tr>
+                        <th>Naam</th>
+                        <th>Voornaam</th>
+                        <th>Gemeente</th>
+                        <th>Postcode</th>
+                        <th>Telefoon</th>
+                        <th>E-mailadress</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Piet</td>
+                        <td class="alt">Zwarte</td>
+                        <td>Hemel</td>
+                        <td>1000</td>
+                        <td>0470 00 00 00</td>
+                        <td>Zwarte.pt@gmail.com</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Maarten</td>
+                        <td>Sint</td>
+                        <td>Hemel</td>
+                        <td>1000</td>
+                        <td>0470 98 76 54 32 10</td>
+                        <td>St.Maarten@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Man</td>
+                        <td class="alt">Kerst</td>
+                        <td>Kerststad</td>
+                        <td>2000</td>
+                        <td>0470 00 00 00</td>
+                        <td>kerstman@gmail.com</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Haas</td>
+                        <td>Paas</td>
+                        <td>Hol</td>
+                        <td>-100</td>
+                        <td>123</td>
+                        <td>Paashaas@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Fee</td>
+                        <td>Tanden</td>
+                        <td>Boom</td>
+                        <td>8820</td>
+                        <td>456</td>
+                        <td>Tandenfee@gmail.com</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="row">
+                <ul class="sintlijst">
+                    <li>
+                        <ul>
+                            <li><h3>Muziek</h3>
+                                <p>Mijn eigen Sinterklaas playlist</p>
+                                <a href="https://open.spotify.com/playlist/1I7ZKCg9oGZaQw7OJqNxvO?si=8a201945d99c4326">Spotify Playlist</a>
+                                <br>
+                                <a><img
+                                        src="images/ab67706c0000da84b9b71df1e0d1ccf0c05442c4.jpg"
+                                        alt="Foto Spotify Playlist"
+                                >
+                                </a>
+                            </li>
+                            <li><h3>Films</h3>
+                                <p>Mijn favoriete film</p>
+                                <a href="https://letterboxd.com/film/ay-ramon/">Letterboxd Ay Ramon!</a>
+                                <br>
+                                <a><img
+                                        src="images/291908-ay-ramon--0-230-0-345-crop.jpg"
+                                        alt="Foto Poster Ay Ramon!"></a></li>
+                            <li><h3>Series</h3>
+                                <p>Mijn eigen Sinterklaas serie</p>
+                                <a href="https://www.youtube.com/watch?v=i9DxodHa52Y">Youtube Dag Sinterklaas</a>
+                                <br>
+                                <a><img
+                                        src="images/imageedit_8_2020669455.jpg"
+                                        alt="Foto Poster Dag Sinterklaas Serie"
+                                ></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            </div>
+        </div>
     <section class="sintlijst">
         <h2>Vragen bij opdracht 2 Labo 7</h2>
         <ul>

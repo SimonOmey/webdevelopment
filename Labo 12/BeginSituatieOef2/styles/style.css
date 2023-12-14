@@ -1,0 +1,55 @@
+html {
+    background-color: white;
+    font-family: helvetica sans-serif;
+}
+
+* {
+    padding: 10px;
+}
+header{
+    background-color: #ddaa00;
+    color: white;
+}
+h1{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+nav{
+    background-color: #ccc;
+    margin: 0 ;
+    padding: 5px 2px;
+}
+nav > a{
+    border: solid 1px #cccccc;
+    background-color: white;
+    color: #ddaa00;
+}
+main{
+    background-color: grey;
+}
+section{
+    margin: 5px;
+    background-color: white;
+}
+section > a{
+    border: solid 1px #333333;
+    background-color: white;
+    color: grey;
+}
+body{
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    background-color: #333;
+}
+img{
+    padding: 0;
+}
+footer{
+    background-color: #ddaa00;
+    color: white;
+}
+@media screen and (min-width: 700px){
+
+}

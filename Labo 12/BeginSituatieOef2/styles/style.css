@@ -13,15 +13,17 @@ header{
 h1{
     display: flex;
     margin: 0;
-    align-items: center;
+    justify-content: center;
 }
 nav{
     background-color: #ccc;
     margin: 0 ;
     padding: 5px 2px;
+    display: flex;
+    justify-content: space-evenly;
 }
 nav > a{
-    border: solid 1px #cccccc;
+    border: solid 1px black;
     background-color: white;
     color: #ddaa00;
 }

@@ -20,7 +20,7 @@ nav{
     margin: 0 ;
     padding: 5px 2px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 nav > a{
     border: solid 1px black;
@@ -31,13 +31,17 @@ main{
     background-color: grey;
 }
 section{
+    display: flex;
     margin: 5px;
     background-color: white;
+    flex-direction: column;
 }
 section > a{
+    display: flex;
     border: solid 1px #333333;
     background-color: white;
     color: grey;
+    justify-content: center;
 }
 body{
     font-size: 1em;
@@ -51,6 +55,10 @@ img{
 footer{
     background-color: #ddaa00;
     color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
 @media screen and (min-width: 700px){
 

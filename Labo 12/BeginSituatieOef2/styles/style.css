@@ -20,7 +20,7 @@ nav{
     margin: 0 ;
     padding: 5px 2px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 nav > a{
     border: solid 1px black;
@@ -61,5 +61,10 @@ footer{
     justify-content: center;
 }
 @media screen and (min-width: 700px){
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
 }

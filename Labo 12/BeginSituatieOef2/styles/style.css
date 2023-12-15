@@ -20,12 +20,16 @@ nav{
     margin: 0 ;
     padding: 5px 2px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
 }
 nav > a{
     border: solid 1px black;
     background-color: white;
     color: #ddaa00;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
 }
 main{
     background-color: grey;
@@ -42,6 +46,11 @@ section > a{
     background-color: white;
     color: grey;
     justify-content: center;
+}
+
+section > img{
+    max-width: 100%;
+    height: auto;
 }
 body{
     font-size: 1em;

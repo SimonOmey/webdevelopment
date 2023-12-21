@@ -1,0 +1,94 @@
+.caption {
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 6fr 1fr 1fr;
+}
+.gridHeader {
+    background-color: #dcd6fe;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+    text-align: center;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+    text-align: center;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+@media screen and (min-width: 786px){
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr
+    }
+    .gridHeader {
+        background-color: #dcd6fe;
+        grid-area: Header;
+        grid-column-start: 1;
+        grid-column-end: 21;
+        grid-row-start: 1;
+        grid-row-end:2;
+    }
+
+    .gridNav {
+        background-color: #c6c0ff;
+        grid-area: Navigation;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end:3;
+    }
+
+    .gridMain {
+        background-color: #f9f6d2;
+        grid-area: Main;
+        grid-column-start: 4;
+        grid-column-end: 18;
+        grid-row-start: 2;
+        grid-row-end:3;
+    }
+
+    .gridAside {
+        background-color: #d4ffd1;
+        grid-area: Aside;
+        grid-column-start: 18;
+        grid-column-end: 20;
+        grid-row-start: 2;
+        grid-row-end:3;
+    }
+
+    .gridFooter {
+        background-color: #ffd1d1;
+        grid-area: Footer;
+        grid-column-start: 1;
+        grid-column-end: 21;
+        grid-row-start: 3;
+        grid-row-end:4;
+    }
+}

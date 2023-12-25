@@ -17,7 +17,8 @@ ul{
 }
 li{
     border-width: 3px;
-    border-color: black;
+    border-style: solid ;
+    border-color: #0E2CAB;
     border-radius: 15px;
     background-color: #edf0fe;
     padding: 15px 10px 15px 10px;
@@ -48,6 +49,7 @@ a{
     }
     li{
         background-color: #feeeed;
+        border-color: #AB180E;
     }
     li:hover {
         background-color: #ab180e;

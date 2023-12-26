@@ -16,9 +16,7 @@ ul{
     list-style: none;
 }
 li{
-    border-width: 3px;
-    border-style: solid ;
-    border-color: #0E2CAB;
+    border: 3px solid #0E2CAB;
     border-radius: 15px;
     background-color: #edf0fe;
     padding: 15px 10px 15px 10px;
@@ -30,7 +28,7 @@ li:hover {
     background-color: #0E2CAB;
 }
 li:hover > a{
-    color: white;
+    color: #edf0fe;
 }
 a{
     color: #0E2CAB;

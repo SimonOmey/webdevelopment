@@ -1,0 +1,122 @@
+/** Volgende CSS gaan we ze geven **/
+body{
+    font-family: Helvetica,sans-serif;
+    margin: 0;
+    display: block;
+    align-content: center;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 3px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.5em;
+
+}
+header{
+    border-bottom: 1px solid #ebe8e8;
+    display: inline-block;
+    width: 600px;
+}
+header > img{
+    height: 50px;
+    text-align: center;
+
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(14,auto);
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #ebe8e8;
+}
+nav > a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    color: #5b4746;
+    height: 13px;
+    text-decoration-line: none;
+}
+nav > a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff100;
+}
+main{
+    border-top: solid 1px #ebe8e8;
+}
+main > h2{
+    background-image: url("images/headerimage.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    text-shadow: 2px 2px #8D99AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.recipe{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 15px;
+}
+.item{
+    border-top: solid 1px #ebe8e8;
+}
+.kicker{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ff4d56;
+    letter-spacing: 1px;
+}
+.title > h2 > a{
+    text-decoration-line: none;
+    color: #000;
+}
+.body{
+    color: #424242;
+    line-height: 2;
+}
+.author{
+    display: inline-block;
+    padding-right: 10px;
+    color: black;
+    border-right: solid 1px #ebe8e8;
+}
+.timestamp{
+    display: inline-block;
+    color: #666666;
+    padding-left: 10px;
+}
+.recommands{
+    margin-top: 50px;
+}
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+footer{
+    float: right;
+    border-top: 1px #ebe8e8;
+    display: flex;
+}
+footer #right{
+    padding: 20px;
+    justify-content: left;
+}
+footer #left{
+    background: black;
+    color: white;
+    padding: 20px;
+    justify-content: right;
+}

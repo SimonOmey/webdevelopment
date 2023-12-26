@@ -11,6 +11,12 @@ h2{
     color: #0E2CAB;
     font-weight: normal;
     font-size: 48px;
+    position: absolute;
+    top: 0.75em;
+    right: 0;
+    bottom: 0;
+    left: 6em;
+
 }
 ul{
     list-style: none;

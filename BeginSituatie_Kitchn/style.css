@@ -18,12 +18,12 @@ h2{
 }
 header{
     border-bottom: 1px solid #ebe8e8;
-    display: inline-block;
-    width: 600px;
+    width: 100%;
+    text-align: center;
 }
 header > img{
     height: 50px;
-    text-align: center;
+    background-size: cover;
 
 }
 nav{
@@ -54,13 +54,17 @@ main{
 main > h2{
     background-image: url("images/headerimage.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
+    width: 100%;
+
     color: white;
     text-shadow: 2px 2px #8D99AE;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    position: relative;
 }
 .recipe{
     margin-top: 50px;
@@ -106,17 +110,21 @@ main > h2{
     margin-bottom: 25px;
 }
 footer{
-    float: right;
-    border-top: 1px #ebe8e8;
-    display: flex;
+    box-sizing: border-box;
 }
 footer #right{
     padding: 20px;
-    justify-content: left;
-}
-footer #left{
     background: black;
     color: white;
+    text-align: left;
+    width: 50%;
+    float: right;
+}
+footer #left{
     padding: 20px;
-    justify-content: right;
+    border-top: 1px #ebe8e8;
+    text-align: right;
+    width: 50%;
+    float: left;
+
 }

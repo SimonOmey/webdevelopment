@@ -1,0 +1,37 @@
+body > header{
+    text-align: center;
+    border-bottom: solid 1px #e1143c;
+}
+body > header > img{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-around;
+    background-color: #00124d;
+}
+nav > a{
+    padding: 5px;
+    align-items: center;
+    text-decoration-line: none;
+    color: #e1143c;
+}
+main{
+    align-content: space-around;
+}
+main > section{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    text-align: center;
+}
+main > section > h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 100px;
+    color: #e1143c;
+}
+main > section > img{
+    height: 200px;
+}

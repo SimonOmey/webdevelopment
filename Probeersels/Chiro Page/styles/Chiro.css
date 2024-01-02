@@ -1,0 +1,42 @@
+body > header{
+    text-align: center;
+    border-bottom: solid 1px #e1143c;
+}
+body > header > img{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-around;
+    background-color: #00124d;
+}
+nav > a{
+    padding: 5px;
+    align-items: center;
+    text-decoration-line: none;
+    color: #e1143c;
+}
+main > header{
+    background-image: url("../images/als_je_t_mij_vraagt_14.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+main > section > article > h2{
+    font-family: PT Sans sans-serif;
+    color: #e1143c;
+}
+.socials{
+    background-color: #00124d;
+    color: #e1143c;
+    padding: 5px;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}

@@ -68,3 +68,33 @@ a{
         grid-template-columns: auto auto;
     }
 }
+
+.button{
+    padding: 10px;
+    border: 3px solid white ;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    display: inline-block;
+    font-family: "Times New Roman", sans-serif;
+
+}
+.button:hover{
+    border: 3px solid black ;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+
+}
+.github{
+    background-image: url("images/github-icon-2048x2048-4uclrgic.png");
+    padding-left: 25px;
+    background-size: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.instagram{
+    background-image: url("images/5c7db0d6e4ea8e09b6476984f8cc2c55.png");
+    padding-left: 20px;
+    background-size: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}

@@ -1,6 +1,7 @@
 .Mondriaan{
     display: grid;
-    grid-template-columns: repeat(auto-fill,auto);
+    grid-template-columns: repeat(13, auto);
+    grid-template-rows: repeat(13,auto);
 }
 .zwart {
     border: solid black;
@@ -41,6 +42,8 @@
 #B{
     grid-column-start: 2;
     grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 #C{
     grid-column-start: 2;

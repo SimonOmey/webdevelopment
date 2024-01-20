@@ -1,0 +1,31 @@
+img {
+    position: absolute;
+}
+#arch {
+    top: 100px;
+    left: 100px;
+
+    width: 200px;
+    height: 120px;
+}
+#tech {
+    top: calc(100% - 220px);
+    left: calc(100% - 300px);
+
+    width: 200px;
+    height: 120px;
+}
+#animals {
+    top: 100px;
+    left: calc(100% - 300px);
+
+    width: 200px;
+    height: 120px;
+}
+#nature {
+    top: calc(100% - 220px);
+    left: 100px;
+
+    width: 200px;
+    height: 120px;
+}

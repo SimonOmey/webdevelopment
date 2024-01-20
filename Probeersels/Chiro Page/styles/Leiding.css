@@ -18,8 +18,8 @@ nav > a{
     text-decoration-line: none;
     color: #e1143c;
 }
-main{
-    align-content: space-around;
+nav > a:hover{
+    border-bottom: 2px solid #e1143c;
 }
 main > section{
     display: grid;

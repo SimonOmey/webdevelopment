@@ -19,6 +19,9 @@ nav > a{
     text-decoration-line: none;
     color: #e1143c;
 }
+nav > a:hover{
+    border-bottom: 2px solid #e1143c;
+}
 main > header{
     background-image: url("../images/als_je_t_mij_vraagt_14.png");
     background-size: cover;

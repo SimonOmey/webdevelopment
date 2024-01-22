@@ -142,11 +142,6 @@ footer{
         width: 750px;
     }
 }
-@media screen and (min-width: 800px){
-    main > header{
-        font-size: 5em;
-    }
-}
 @media screen and (min-width:1000px) {
     body > header{
         width: 980px;

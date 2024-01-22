@@ -6,13 +6,13 @@
     <link href="../../Labo%207/Labo%207%20CSS/Opdracht%20Personal%20Homepage.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../../Labo%2010/beginsituatie_bootstrap5/style/bootstrap-grid.css" type="text/css">
 </head>
-<body class="body container">
-    <header>
+<body class="body container-fluid">
+    <header class="row col-10 offset-1">
         <h1>Personal Homepage van de Sint</h1>
     </header>
 <main>
-    <section>
-        <ul class="sintlijst">
+    <section class="row">
+        <ul class="sintlijst col-4 offset-1">
         <li><h2>Information</h2>
             <ul>
                 <li>Sint Nicolaas, Goedheilgman</li>
@@ -25,27 +25,24 @@
             </ul>
         </li>
         </ul>
+        <ul class="sintlijst col-4 offset-2">
+            <li><h2>Hobbies</h2>
+                <ul>
+                    <li><h3>Chiro Aartrijke</h3>
+                        <p>De Chiro is de grootste jeugdbeweging van Vlaanderen.</p>
+                        <a href="https://chiroaartrijke.be/">Chiro Aartrijke</a></li>
+                    <li><h3>Cultuur beleven</h3>
+                        <p>De plek voor theater dans circus en comedy.</p>
+                        <a href="https://www.ccdebrouckere.be/">Cultuur Centrum De Brouckere</a></li>
+                    <li><h3>Koken</h3>
+                        <p>De Sint die komt, een feest voor elk kind. En bij een feest hoort natuurlijk ook lekkers!</p>
+                        <a href="https://koken.vtm.be/recepten/gelegenheden/sinterklaas?referrer=https%3A%2F%2Fwww.google.com%2F">Recepten van de sint</a></li>
+                </ul>
+            </li>
+        </ul>
     </section>
         <div class="row">
-            <section class="col-6 row">
-                <ul class="sintlijst">
-                <li><h2>Hobbies</h2>
-                    <ul>
-                        <li><h3>Chiro Aartrijke</h3>
-                            <p>De Chiro is de grootste jeugdbeweging van Vlaanderen.</p>
-                            <a href="https://chiroaartrijke.be/">Chiro Aartrijke</a></li>
-                        <li><h3>Cultuur beleven</h3>
-                            <p>De plek voor theater dans circus en comedy.</p>
-                            <a href="https://www.ccdebrouckere.be/">Cultuur Centrum De Brouckere</a></li>
-                         <li><h3>Koken</h3>
-                            <p>De Sint die komt, een feest voor elk kind. En bij een feest hoort natuurlijk ook lekkers!</p>
-                            <a href="https://koken.vtm.be/recepten/gelegenheden/sinterklaas?referrer=https%3A%2F%2Fwww.google.com%2F">Recepten van de sint</a></li>
-                    </ul>
-                </li>
-                </ul>
-            </section>
-            <div class="col-6">
-            <section class="sintlijst row">
+            <section class="sintlijst col-4 offset-1">
                 <h2>Vrienden</h2>
                 <table class="datagrid">
                     <thead>
@@ -102,6 +99,46 @@
                     </tbody>
                 </table>
             </section>
+                <section class="sintlijst col-4 offset-2">
+                <h2>Prognose:</h2>
+                <table class="datagrid">
+                    <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Web Development</th>
+                        <th>Programming</th>
+                        <th>Excel</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Simon Omey</td>
+                        <td>12/20</td>
+                        <td>13/20</td>
+                        <td>15/20</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Axl Istas</td>
+                        <td>17/20</td>
+                        <td>18/20</td>
+                        <td>11/20</td>
+                    </tr>
+                    <tr>
+                        <td>Luna Brouckmeersch</td>
+                        <td>16/20</td>
+                        <td>15/20</td>
+                        <td>19/20</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Rune Van Daele</td>
+                        <td>15/20</td>
+                        <td>14/20</td>
+                        <td>18/20</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
             <section class="row">
                 <ul class="sintlijst">
                     <li>
@@ -135,7 +172,6 @@
                     </li>
                 </ul>
             </section>
-        </div>
     <div class="row">
     <section class="sintlijst col-6">
         <h2>Vragen bij opdracht 2 Labo 7</h2>
@@ -144,47 +180,8 @@
             <li>De browser prefix -webkit- voor chrome kan nog steeds handig zijn voor oudere versies.</li>
         </ul>
     </section>
-    <section class="sintlijst col-6">
-        <h2>Prognose:</h2>
-        <table class="datagrid">
-            <thead>
-                <tr>
-                    <th>Student</th>
-                    <th>Web Development</th>
-                    <th>Programming</th>
-                    <th>Excel</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Simon Omey</td>
-                <td>12/20</td>
-                <td>13/20</td>
-                <td>15/20</td>
-            </tr>
-            <tr class="alt">
-                <td>Axl Istas</td>
-                <td>17/20</td>
-                <td>18/20</td>
-                <td>11/20</td>
-            </tr>
-            <tr>
-                <td>Luna Brouckmeersch</td>
-                <td>16/20</td>
-                <td>15/20</td>
-                <td>19/20</td>
-            </tr>
-            <tr class="alt">
-                <td>Rune Van Daele</td>
-                <td>15/20</td>
-                <td>14/20</td>
-                <td>18/20</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
+
     </div>
-        </div>
     <footer>
         <p>Teruglink naar de <a href="../../index.html">hoofdpagina</a></p>
         <p>Teruglink naar de <a href="../index.html">Labo 3 hoofdpagina</a></p>

@@ -52,6 +52,11 @@ main > header{
     font-size: 40px;
     position: relative;
 }
+main > section > h1{
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    width: 600px;
+}
 .recipe{
     margin-top: 50px;
     display: grid;
@@ -89,6 +94,37 @@ main > header{
     display: inline-block;
     padding-left: 10px;
 }
+.Recommended{
+    margin-top: 50px;
+    width: 600px;
+}
+.Recommended > div > picture{
+    margin-bottom: 25px;
+}
+footer{
+
+}
+
+footer{
+    display: block;
+    border-top: 1px solid #ebe8e8;
+}
+#left{
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 20px;
+    line-height: 2em;
+}
+#right{
+    float: right;
+    text-align: left;
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 20px;
+    line-height: 2em;
+}
 @media screen and (min-width:770px) {
     body > header{
         width: 750px;
@@ -97,6 +133,12 @@ main > header{
         width: 750px;
     }
     main > section > .recipe{
+        width: 750px;
+    }
+    main > section > .Recommended{
+        width: 750px;
+    }
+    main > section > h1{
         width: 750px;
     }
 }
@@ -113,6 +155,12 @@ main > header{
         width: 980px;
     }
     main > section > .recipe{
+        width: 980px;
+    }
+    main > section > .Recommended{
+        width: 980px;
+    }
+    main > section > h1{
         width: 980px;
     }
 }

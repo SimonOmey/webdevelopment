@@ -52,11 +52,51 @@ main > header{
     font-size: 40px;
     position: relative;
 }
+.recipe{
+    margin-top: 50px;
+    display: grid;
+    gap: 15px;
+    width: 600px;
+}
+.recipe > article{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.recipe > picture{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.Kicker{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ff4d56;
+}
+.Title{
+    color: black;
+    text-decoration-line: none;
+}
+.Body{
+    color: #666;
+    line-height: 2;
+}
+.Auteur{
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+}
+.timestamp{
+    display: inline-block;
+    padding-left: 10px;
+}
 @media screen and (min-width:770px) {
     body > header{
         width: 750px;
     }
     body > nav{
+        width: 750px;
+    }
+    main > section > .recipe{
         width: 750px;
     }
 }
@@ -70,6 +110,9 @@ main > header{
         width: 980px;
     }
     body > nav{
+        width: 980px;
+    }
+    main > section > .recipe{
         width: 980px;
     }
 }

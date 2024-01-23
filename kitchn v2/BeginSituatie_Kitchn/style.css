@@ -90,7 +90,7 @@ main > section > h1{
     padding-right: 10px;
     border-right: 1px solid #ebe8e8;
 }
-.timestamp{
+time{
     display: inline-block;
     padding-left: 10px;
 }

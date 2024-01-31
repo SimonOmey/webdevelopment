@@ -35,9 +35,6 @@ main > section > h2{
 main > section > img{
     height: 200px;
 }
-footer > section > a{
-    padding: 5px;
-    align-items: center;
-    text-decoration-line: none;
-    color: #e1143c;
+footer > p{
+    text-align: center;
 }

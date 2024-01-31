@@ -63,6 +63,9 @@ footer > section > a{
 footer > section > a:hover{
     color: red;
 }
+footer > p{
+    text-align: center;
+}
 @media screen and (min-width: 1000px){
     nav{
         height: 28px;

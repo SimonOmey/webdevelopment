@@ -1,4 +1,3 @@
-
 body > header{
     text-align: center;
     border-bottom: solid 2px #e1143c;
@@ -22,6 +21,13 @@ nav > a{
 nav > a:hover{
     border-bottom: 2px solid #e1143c;
 }
+nav > a > p{
+    display: none;
+}
+nav > a > img{
+    height: 50px;
+    width: 50px;
+}
 main > header{
     background-image: url("../images/als_je_t_mij_vraagt_14.png");
     background-size: cover;
@@ -41,7 +47,7 @@ main > section > article > h2{
     padding: 5px;
     text-decoration: none;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -53,4 +59,16 @@ footer > section > a{
 }
 footer > section > a:hover{
     color: red;
+}
+@media screen and (min-width: 1000px){
+    nav{
+        height: 28px;
+    }
+    nav > a > img{
+        display: none;
+    }
+    nav > a > p{
+        display: block;
+        margin: 0;
+    }
 }

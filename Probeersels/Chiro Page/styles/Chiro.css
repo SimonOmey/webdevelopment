@@ -37,9 +37,12 @@ main > header{
     width: 100%;
     text-align: center;
 }
-main > section > article > h2{
+main > h1{
     font-family: PT Sans sans-serif;
     color: #e1143c;
+}
+iframe{
+    width: 330px;
 }
 .socials{
     background-color: #00124d;

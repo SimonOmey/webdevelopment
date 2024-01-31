@@ -27,7 +27,7 @@ main > header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right bottom;
-    height: 500px;
+    height: 550px;
     width: 100%;
     text-align: center;
 }
@@ -43,4 +43,14 @@ main > section > article > h2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+}
+
+footer > section > a{
+    padding: 3px;
+    align-items: center;
+    text-decoration-line: none;
+    color: #e1143c;
+}
+footer > section > a:hover{
+    color: red;
 }

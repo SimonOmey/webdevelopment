@@ -1,0 +1,22 @@
+body > header{
+    text-align: center;
+    border-bottom: solid 2px #e1143c;
+}
+body > header > img{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00124d;
+}
+nav > a{
+    padding: 5px;
+    align-items: center;
+    text-decoration-line: none;
+    color: #e1143c;
+}
+nav > a:hover{
+    border-bottom: 2px solid #e1143c;
+}

@@ -8,6 +8,7 @@ body > header > img{
 }
 nav{
     display: flex;
+    grid-template-columns: repeat(4,auto);
     justify-content: space-around;
     background-color: #00124d;
 }
@@ -20,21 +21,92 @@ nav > a{
 nav > a:hover{
     border-bottom: 2px solid #e1143c;
 }
+nav > a > p{
+    display: none;
+}
+nav > a > img{
+    height: 50px;
+    width: 50px;
+}
+nav > a:hover{
+    border-bottom: 2px solid #e1143c;
+}
 main > section{
     display: grid;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(1,auto);
     text-align: center;
     justify-content: space-around;
 }
 main > section > h2{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    height: 100px;
     color: #e1143c;
 }
-main > section > img{
+.leider > img{
     height: 200px;
+    width: 200px;
 }
 footer > p{
     text-align: center;
+}
+@media screen and (min-width: 768px){
+
+    main > section{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    main > section > h2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 100px;
+        color: #e1143c;
+    }
+}
+.socials{
+    background-color: #00124d;
+    color: #e1143c;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer > .socials > a{
+    padding: 3px;
+    align-items: center;
+    text-decoration-line: none;
+    color: #e1143c;
+}
+footer > .socials > a:hover{
+    color: red;
+}
+footer > p{
+    text-align: center;
+}
+@media screen and (min-width: 992px){
+    nav{
+        height: 28px;
+    }
+    nav > a > img{
+        display: none;
+    }
+    nav > a > p{
+        display: block;
+        margin: 0;
+    }
+    main > section{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    main > section > h2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        height: 100px;
+        color: #e1143c;
+    }
 }

@@ -23,3 +23,26 @@ nav > a:hover{
 footer > p{
     text-align: center;
 }
+
+.socials{
+    background-color: #00124d;
+    color: #e1143c;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer > .socials > a{
+    padding: 3px;
+    align-items: center;
+    text-decoration-line: none;
+    color: #e1143c;
+}
+footer > .socials > a:hover{
+    color: red;
+}
+footer > p{
+    text-align: center;
+}

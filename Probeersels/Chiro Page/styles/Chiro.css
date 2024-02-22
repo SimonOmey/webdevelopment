@@ -54,19 +54,19 @@ iframe{
     justify-content: space-around;
 }
 
-footer > section > a{
+footer > .socials > a{
     padding: 3px;
     align-items: center;
     text-decoration-line: none;
     color: #e1143c;
 }
-footer > section > a:hover{
+footer > .socials > a:hover{
     color: red;
 }
 footer > p{
     text-align: center;
 }
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 992px){
     nav{
         height: 28px;
     }

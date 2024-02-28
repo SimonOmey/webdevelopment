@@ -1,5 +1,17 @@
 .colorDemo {
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 	border:1px solid black;
+}
+body{
+	display: flex;
+	flex-direction: row;
+}
+.sliders{
+	display: flex;
+	flex-direction: column;
+}
+.sliders > section{
+	display: flex;
+	flex-direction: row;
 }

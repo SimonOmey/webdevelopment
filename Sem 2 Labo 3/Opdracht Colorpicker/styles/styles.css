@@ -1,7 +1,8 @@
 .colorDemo {
-	width:150px;
-	height:150px;
+	width:200px;
+	height:200px;
 	border:1px solid black;
+	margin: 25px;
 }
 main{
 	display: flex;
@@ -13,5 +14,5 @@ main{
 }
 .sliders > section{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }

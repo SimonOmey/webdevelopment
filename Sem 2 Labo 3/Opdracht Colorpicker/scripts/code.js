@@ -23,17 +23,14 @@ const update = () => {
 	let greenSlider = document.getElementsByClassName("green");
 	let blueSlider = document.getElementsByClassName("blue");
 	let blokje = document.getElementsByClassName("colorDemo");
-
 	let redValue=redSlider[0].value;
-	console.log("de waarde van de roode slider is momenteel : "+redValue);
-
 	let greenValue = greenSlider[0].value;
-	console.log("de waarde van de groene slider is momenteel : "+greenValue);
-
 	let blueValue = blueSlider[0].value;
-	console.log("de waarde van de blauwe slider is momenteel :" +blueValue)
-
+	console.log("de waarde van de sliders is momenteel rood : " + redValue + " groen : " + greenValue + " blauw : " + blueValue)
 	blokje[0].style.backgroundColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`
+	red.innerHTML = "Red : " + redValue;
+	green.innerHTML = "Red : " + greenValue;
+	blue.innerHTML = "Red : " + blueValue;
 }
 
 // dit is de eerste regel code die uitgevoerd wordt,

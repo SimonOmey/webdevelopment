@@ -9,8 +9,9 @@ const schrijfZin = () =>{
 }
 const maakMetSpaties = (inputText) => {
     let zinMetSpaties ="";
+    let inputZonderSpaties = inputText.replaceAll(" ","");
     for (let i = 0; i < inputText.length; i++) {
-        zinMetSpaties += inputText.charAt(i) + " ";
+        zinMetSpaties += inputZonderSpaties.charAt(i) + " ";
     }
     zinMetSpaties.trim()
     return zinMetSpaties;

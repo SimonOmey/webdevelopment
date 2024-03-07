@@ -1,9 +1,9 @@
 const setup = () => {
 	let button = document.getElementById("button");
-    button.addEventListener('click', schrijfZin);
+    button.addEventListener('click', printZin);
 }
 
-const schrijfZin = () =>{
+const printZin = () =>{
     let zin = document.getElementById("input").value
     console.log(maakMetSpaties(zin))
 }

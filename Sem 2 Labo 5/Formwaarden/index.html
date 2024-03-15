@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head> 
+	<title>Oefening</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body> 
+<header>
+	<h1>Opdracht Formwaarden</h1>
+</header>
+<main>
+<form action="index.html" method="post">
+	<p><label for="rookt">Is roker</label>
+	<input type="checkbox" name="rookt" id="rookt"></p>
+	<p>Moedertaal</p>
+	<p><input type="radio" name="taal" id="Nederlands" value="nl"><label for="Nederlands">Nederlands</label></p>
+	<p><input type="radio" name="taal" id="Frans" value="fr"><label for="Frans">Frans</label></p>
+	<p><input type="radio" name="taal" id="Engels" value="en"><label for="Engels">Engels</label></p>
+	<p><label for="select">Favoriete buurland</label>
+	<select name="select" id="select">
+		<option value="Frankrijk">Frankrijk</option>
+		<option value="Nederland">Nederland</option>
+		<option value="Duitsland">Duitsland</option>
+	</select>
+	</p>
+	<label for="bestelling">Bestelling</label>
+		<select name="bestelling" id="bestelling" multiple>
+			<option value="Aardappelen">Aardappelen</option>
+			<option value="Brood">Brood</option>
+			<option value="Melk">Melk</option>
+			<option value="Biefstuk">Biefstuk</option>
+			<option value="Chips">Chips</option>
+			<option value="Krant">Krant</option>
+		</select>
+	<p><label for="submit"></label>
+		<input type="submit" id="submit" name="submit" value="Toon resultaat" ></p>
+</form>
+</main>
+<footer>
+	<ul>
+		<li><a href="../index.html">Labo Page</a></li>
+		<li><a href="../../index.html">Landing Page</a></li>
+	</ul>
+</footer>
+	<script src="scripts/code.js"></script>
+</body> 
+</html> 

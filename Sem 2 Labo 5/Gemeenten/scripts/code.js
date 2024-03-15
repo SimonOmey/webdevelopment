@@ -1,17 +1,26 @@
 const setup = () => {
+
+    vraagGemeentes();
+    gemeenteToevoegen(gemeenten);
+}
+let gemeenten = [];
+
+const vraagGemeentes = () =>{
     let stop = false;
-    let gemeentes = [];
-    while(stop === false){
-        let gemeente = window.prompt("Gemeente: ")
-        if(gemeente !=="stop"){
-            gemeentes += gemeente + " ";
-        }else{
+    while (!stop) {
+            let gemeente = window.prompt("Typ stop om te stoppen    Geef gemeente op :")
+        if (gemeente !== "stop") {
+            gemeenten.push(gemeente);
+        } else {
             stop = true;
         }
     }
-    console.log(gemeentes)
 }
-
+const gemeenteToevoegen = (gemeenten) =>{
+    let select = document.getElementById("select")
+    for (let i = 0; i < gemeenten.length; i++) {
+        let nieuweGemeente = gemeenten[i]
+        select.innerHTML += "<option value=\"" + nieuweGemeente + "\">" + nieuweGemeente + "</option>";
+    }
+}
 window.addEventListener("load", setup);
-
-// TIP Gebruik bij opdracht fromvalidatie enkel type = "text"

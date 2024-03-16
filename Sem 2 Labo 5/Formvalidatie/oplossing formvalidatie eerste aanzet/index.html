@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="nl">
+<head> 
+	<title>Opdracht formvalidatie</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</head> 
+
+<body>
+<header>
+	<h1>Opdracht Formvalidatie</h1>
+</header>
+<main>
+	<form action="index.html" method="post">
+		<div>
+			<label for="txtVoornaam">Voornaam</label>
+			<input type="text" id="txtVoornaam" name="voornaam" />
+			<span class="errorMessage" id="errVoornaam"></span>
+		</div>
+		<div>
+			<label for="txtFamilienaam">Familienaam</label>
+			<input type="text" id="txtFamilienaam" name="familienaam" required="required">
+			<span class="errorMessage" id="errFamilienaam"></span>
+		</div>
+		<div>
+			<label for="txtGeboortedatum">Geboortedatum</label>
+			<input type="text" id="txtGeboortedatum" name="geboortedatum" required="required">
+			<span class="errorMessage" id="errGeboortedatum"></span>
+		</div>
+		<div>
+			<label for="txtEmailadres">Email</label>
+			<input type="text" id="txtEmailadres" name="emailadres" required="required">
+			<span class="errorMessage" id="errEmailadres"></span>
+		</div>
+		<div>
+			<label for="txtAantalKinderen">Aantal kinderen</label>
+			<input type="text" id="txtAantalKinderen" name="aantalKinderen">
+			<span class="errorMessage" id="errAantalkinderen"></span>
+		</div>
+		<div class="line"></div>
+		<input type="button" id="btnValideer" value="Valideer" />
+	</form>
+</main>
+<footer>
+	<ul>
+		<li><a href="../../index.html">Labo Page</a></li>
+		<li><a href="../../../index.html">Landing Page</a></li>
+	</ul>
+</footer>
+</body> 
+</html> 

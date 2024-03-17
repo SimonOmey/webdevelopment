@@ -48,6 +48,13 @@ const valideerGeboortedatum = () =>{
 		txtGeboortedatum.className="invalid";
 		errGeboortedatum.innerHTML="is verplicht veld"
 	}
+	if(geboortedatum===""){
+		txtGeboortedatum.className="invalid";
+		errGeboortedatum.innerHTML="is verplicht veld"
+	}else if(!geboortedatum.match(/[1-2][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]/)) {
+		geboortedatum.className = "invalid"
+		errGeboortedatum.innerHTML = "formaat is niet jjjj-mm-dd";
+	}
 }
 const valideerEmail = () =>{
 	let txtEmailadres = document.getElementById("txtEmailadres");
@@ -55,17 +62,29 @@ const valideerEmail = () =>{
 	let email = txtEmailadres.value.trim();
 	if(email===""){
 		txtEmailadres.className="invalid";
-		errEmail.innerHTML="is verplicht veld"
+		errEmail.innerHTML="is verplicht veld";
+	}else if(email.indexOf("@") === -1){
+		txtEmailadres.className="invalid";
+		errEmail.innerHTML="geen geldig email adres";
 	}
 }
 const valideerAantalKinderen = () =>{
 	let txtAantalKinderen = document.getElementById("txtAantalKinderen");
 	let errAantalKinderen = document.getElementById("errAantalkinderen");
-	let aantalKinderen = txtAantalKinderen.value.numberValue;
+	let aantalKinderen = txtAantalKinderen.value;
+	if(!isGetal(aantalKinderen)===true){
+		txtAantalKinderen.className="invalid";
+		errAantalKinderen.innerHTML="is geen getal"
+	}
 	if(aantalKinderen<0){
 		txtAantalKinderen.className="invalid";
 		errAantalKinderen.innerHTML="is geen positief getal"
+	}else if(aantalKinderen>99){
+		txtAantalKinderen.className="invalid";
+		errAantalKinderen.innerHTML="is te vruchtbaar"
 	}
+}
+const isGetal = (tekst) => {
+		return !isNaN(tekst);
 	}
-
 window.addEventListener("load", setup);

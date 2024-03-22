@@ -29,8 +29,8 @@ const update = () => {
 	console.log("de waarde van de sliders is momenteel rood : " + redValue + " groen : " + greenValue + " blauw : " + blueValue)
 	blokje[0].style.backgroundColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`
 	red.innerHTML = "Red : " + redValue;
-	green.innerHTML = "Red : " + greenValue;
-	blue.innerHTML = "Red : " + blueValue;
+	green.innerHTML = "Green : " + greenValue;
+	blue.innerHTML = "Blue : " + blueValue;
 }
 
 // dit is de eerste regel code die uitgevoerd wordt,

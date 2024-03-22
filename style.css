@@ -68,7 +68,32 @@ a{
         grid-template-columns: auto auto;
     }
 }
+@media  screen and (min-width: 2000px) {
+    h1{
+        position: relative;
+    }
+    h2{
+        color: #daa512;
+    }
+    a{
+        color:#daa512;
+    }
+    li{
+        background-color: #feeeed;
+        border-color: #daa512;
+    }
+    li:hover {
+        background-color:#daa512;;
+    }
+    li:hover > a{
+        color: white;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 
+}
 .button{
     padding: 10px;
     border: 3px solid white ;

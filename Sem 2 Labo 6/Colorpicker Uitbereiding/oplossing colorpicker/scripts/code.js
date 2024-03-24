@@ -30,14 +30,23 @@ const saveColor = () => {
 	let save = document.createElement("div")
 	let verwijder = document.createElement("input")
 
-	save.classList.add("swatch")
-	save.classList.add("colorSaved")
-	save.style.backgroundColor="rgb("+red+","+green+","+blue+")";
-	saves.appendChild(save);
+	const geefSwatchKleur = (kleurcode) => {
+		let swatch = document.querySelector(".swatch")
+		swatch.style.backgroundColor = kleurcode;
+	}
 	const verwijderColor = (event) =>{
 		let teVerwijderenKleur = event.target.parentElement
 		teVerwijderenKleur.remove();
 	}
+
+	save.classList.add("swatch")
+	save.classList.add("colorSaved")
+	save.style.backgroundColor="rgb("+red+","+green+","+blue+")";
+	saves.appendChild(save);
+
+	save.addEventListener("click", geefSwatchKleur.bind(null, "rgb(" + red + "," + green + ", " + blue + ")"));
+
+
 	verwijder.type="button"
 	verwijder.value="x"
 	verwijder.classList.add("delete")

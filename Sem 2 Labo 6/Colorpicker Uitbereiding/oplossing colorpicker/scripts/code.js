@@ -30,7 +30,7 @@ const saveColor = () => {
 	let save = document.createElement("div")
 	let verwijder = document.createElement("input")
 
-	save.classList.add("colorPicker")
+	save.classList.add("swatch")
 	save.classList.add("colorSaved")
 	save.style.backgroundColor="rgb("+red+","+green+","+blue+")";
 	saves.appendChild(save);
@@ -40,6 +40,7 @@ const saveColor = () => {
 	}
 	verwijder.type="button"
 	verwijder.value="x"
+	verwijder.classList.add("delete")
 	save.appendChild(verwijder)
 	verwijder.addEventListener("click",verwijderColor)
 
